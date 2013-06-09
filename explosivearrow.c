@@ -29,7 +29,7 @@ SHHook(void*, Arrow$$tick, Entity* self) {
 	if(arrowHit) {
 		arrowHit = false;
 		// 3.1 is size of TNT explosion
-		Level$$explode(level, NULL, self->x, self->y, self->z, 3.1 * 10);
+		Level$$explode(level, NULL, self->x, self->y, self->z, 3.1);
 		Entity$$remove(self);
 	}
 	
