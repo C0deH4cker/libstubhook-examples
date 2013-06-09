@@ -1,5 +1,8 @@
 # libstubhook examples #
 
+The following mods are all for the app Minecraft: Pocket Edition.
+I will try to add examples for other apps later.
+
 ## explosivearrow.c ##
 Makes arrows explode on impact.
 
