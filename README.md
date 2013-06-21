@@ -25,6 +25,6 @@ tracking within the code.
 ## *Made by others* ##
 
 ## pvz.c ##
-Made by [HackJack](https://github.com/iC0d3/libstubhook-example-pvz)
+Made by [HackJack](https://github.com/1c0d3/libstubhook-example-pvz)
 
 Various hacks to Plants vs Zombies.
