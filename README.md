@@ -25,6 +25,12 @@ Zombies move twice as fast and are invincible. Shows off basic
 usage of `SHPtrHook`, a very powerful feature mainly used for
 hooking C++ virtual methods.
 
+## flyinsurvival.c ##
+Allows the player to fly in survival mode without side effects
+such as making the player invincible. The player can obviously fly
+and cannot be hurt by falling. All other forms of damage still
+apply.
+
 ===
 
 ## *Made by others* ##
