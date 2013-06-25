@@ -1,7 +1,9 @@
 # libstubhook examples #
 
 The following mods are all for the app Minecraft: Pocket Edition.
-I will try to add examples for other apps later.
+I will try to add examples for other apps later. You may use this
+code and redistribute binary versions as long as you make it clear
+that I am the author of these mods.
 
 ===
 
