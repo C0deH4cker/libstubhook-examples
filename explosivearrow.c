@@ -63,6 +63,13 @@ SHConstructor {
 		SHStub(SHAddr(0xeec88), Level$$playSound);
 		SHStub(SHAddr(0x5abc0), LocalPlayer$$LocalPlayer);
 	}
+    SHAppVersion("0.7.2.0") {
+		SHStub(SHAddr(0xb51d8), Entity$$remove);
+		SHStub(SHAddr(0xf4828), Level$$explode);
+		SHStub(SHAddr(0xcbfbc), Arrow$$tick);
+		SHStub(SHAddr(0xf2668), Level$$playSound);
+		SHStub(SHAddr(0x5de5c), LocalPlayer$$LocalPlayer);
+	}
 	SHOtherVersion {
 		return;
 	}
