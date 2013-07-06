@@ -49,12 +49,12 @@ SHHook(Entity*, LocalPlayer$$LocalPlayer, Entity* self, Minecraft* minecraft, Le
 }
 
 SHConstructor {
-	SHAppVersion("0.6.1.0") {
-		SHStub(SHAddr(0xa2e58), Entity$$remove);
-		SHStub(SHAddr(0xdf8a0), Level$$explode);
-		SHStub(SHAddr(0xb8e3c), Arrow$$tick);
-		SHStub(SHAddr(0xddae8), Level$$playSound);
-		SHStub(SHAddr(0x52ca0), LocalPlayer$$LocalPlayer);
+	SHAppVersion("0.7.2.0") {
+		SHStub(SHAddr(0xb51d8), Entity$$remove);
+		SHStub(SHAddr(0xf4828), Level$$explode);
+		SHStub(SHAddr(0xcbfbc), Arrow$$tick);
+		SHStub(SHAddr(0xf2668), Level$$playSound);
+		SHStub(SHAddr(0x5de5c), LocalPlayer$$LocalPlayer);
 	}
 	SHAppVersion("0.7.1.0") {
 		SHStub(SHAddr(0xb1a64), Entity$$remove);
@@ -62,6 +62,13 @@ SHConstructor {
 		SHStub(SHAddr(0xc87e0), Arrow$$tick);
 		SHStub(SHAddr(0xeec88), Level$$playSound);
 		SHStub(SHAddr(0x5abc0), LocalPlayer$$LocalPlayer);
+	}
+	SHAppVersion("0.6.1.0") {
+		SHStub(SHAddr(0xa2e58), Entity$$remove);
+		SHStub(SHAddr(0xdf8a0), Level$$explode);
+		SHStub(SHAddr(0xb8e3c), Arrow$$tick);
+		SHStub(SHAddr(0xddae8), Level$$playSound);
+		SHStub(SHAddr(0x52ca0), LocalPlayer$$LocalPlayer);
 	}
 	SHOtherVersion {
 		return;
