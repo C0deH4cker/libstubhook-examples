@@ -18,6 +18,10 @@ SHHook(void, LocalPlayer$$causeFallDamage, void* self, float damage) {
 }
 
 SHConstructor {
+	SHAppVersion("0.7.2.0") {
+		SHPtrHook(SHAddr(0x20c410), SurvivalMode$$initAbilities);
+		SHPtrHook(SHAddr(0x206d3c), LocalPlayer$$causeFallDamage);
+	}
 	SHAppVersion("0.7.1.0") {
 		SHPtrHook(SHAddr(0x2053d0), SurvivalMode$$initAbilities);
 		SHPtrHook(SHAddr(0x1ffd20), LocalPlayer$$causeFallDamage);
