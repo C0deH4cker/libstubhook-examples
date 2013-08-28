@@ -49,6 +49,13 @@ SHHook(Entity*, LocalPlayer$$LocalPlayer, Entity* self, Minecraft* minecraft, Le
 }
 
 SHConstructor {
+	SHAppVersion("0.7.3.0") {
+		SHStub(SHAddr(0xb51d8), Entity$$remove);
+		SHStub(SHAddr(0xf4828), Level$$explode);
+		SHStub(SHAddr(0xcbfbc), Arrow$$tick);
+		SHStub(SHAddr(0xf2668), Level$$playSound);
+		SHStub(SHAddr(0x5de5c), LocalPlayer$$LocalPlayer);
+	}
 	SHAppVersion("0.7.2.0") {
 		SHStub(SHAddr(0xb51d8), Entity$$remove);
 		SHStub(SHAddr(0xf4828), Level$$explode);
